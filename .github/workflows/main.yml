@@ -6,11 +6,11 @@ on:
 
 env:
   AWS_REGION: ap-southeast-1
-  ECR_REPOSITORY: koperasi-app
-  ECS_SERVICE: ecs-lab-service
-  ECS_CLUSTER: ecs-lab-cluster
+  ECR_REPOSITORY: koperasi-app-togar
+  ECS_SERVICE: koperasi-task-togar-service-hdrrh21u
+  ECS_CLUSTER: ecs-lab-cluster-togar
   ECS_TASK_DEFINITION: .aws/task-definition.json # Simpan file JSON task-def di repo
-  CONTAINER_NAME: app-container
+  CONTAINER_NAME: koprasi
 
 jobs:
   deploy:
